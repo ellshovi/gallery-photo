@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900");
+
+* {
+    font-family: "Poppins", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: linear-gradient(to right top, #ebf7fd, #ecf6fd, #eef6fd, #eff5fc, #f0f5fc, #f0f5fc, #f0f6fc, #f0f6fc, #eef7fd, #edf8fd, #ecf9fc, #ebfafb);
+}
+
+h1 {
+    font-size: 50px;
+    float: center;
+    color: #0C4F4B;
+}
+
+header {
+    background-image: linear-gradient(to right top, #d4eef0, #d4ecf0, #d5eaf0, #d7e7ef, #d8e5ee, #d5e2ea, #d2dee7, #cfdbe3, #c7d6dd, #c0d1d6, #b9cccf, #b3c7c7);
+    margin-bottom: 20px;
+    border-radius: 7.5px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.hero hr {
+    width: 25%;
+    margin: -25px;
+    padding: 0;
+    opacity: 0.8;
+    color: gray;
+}
+
+.hero_text {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+h6 {
+    font-size: 20px;
+    color: #468E8E;
+    opacity: 0.5;
+    font-style: oblique;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #063D4A;
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.row {
+    margin: -18px;
+    padding: 20px;
+    display: table;
+}
+
+.column {
+    float: left;
+    padding: 15px 8px;
+    width: 25%;
+}
+
+.content {
+    background-color: white;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+.content img {
+    border-radius: 7.5px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px, rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+.content hr {
+    width: 70%;
+    opacity: 0.1;
+    border-color: #142E5E;
+}
+
+footer {
+    background-image: linear-gradient(to left top, #94b9df, #75bcdc, #5abfd0, #4fc0bb, #5cbe9f);
+    padding-top: 40px;
+    padding-bottom: 10px;
+    margin: auto;
+    border-radius: 7.5px;
+    text-align: center;
+}
+
+footer ul li img {
+	width: 40%;
+}
+
+.social-icons li {
+    display: inline-block;
+    margin-bottom: 3px;
+}
+
+.social-icons a {
+    background-color: #187256;
+    font-size: 10px;
+    display: inline-block;
+    line-height: 60px;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin-right: 25px;
+    border-radius: 100%;
+}
+
+@media screen and (max-width: 850px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    .hero hr {
+        margin: -5px;
+    }
+
+    h6 {
+        font-size: 15px;
+        margin-top: 25px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+
+    .column {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .column {
+        width: 100%;
+    }
+}
