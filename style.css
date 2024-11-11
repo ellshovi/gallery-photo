@@ -55,15 +55,16 @@ h3 {
 }
 
 .row {
-    margin: 0px;
+    margin: 0;
     padding: 20px;
-    display: table;
+    display: flex; /* Ganti display table dengan flex */
+    flex-wrap: wrap;
 }
 
 .column {
-    float: left;
     padding: 15px 8px;
     width: 25%;
+    box-sizing: border-box;
 }
 
 .content {
